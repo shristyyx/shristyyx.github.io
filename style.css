@@ -11,10 +11,10 @@
  background-color: white;
  background-size: cover;
  background-position: center;
- color: purple;
+ 
 
 
- --dot-bg: white;
+ --dot-bg: pink;
  --dot-color: black;
  --dot-size: 1px;
  --dot-space: 22px;
