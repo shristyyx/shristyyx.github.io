@@ -11,7 +11,7 @@
  background-color: white;
  background-size: cover;
  background-position: center;
- 
+ color: black;
 
 
  --dot-bg: white;
@@ -102,7 +102,7 @@ nav ul li a:hover::after{
 #about{
     padding: 30px 0 70px;
     color: black;
-    background-color: black;
+    background-color: white;
 
 
 
@@ -484,27 +484,6 @@ nav ul li a:hover::after{
 
 
 
-#extra{
-    padding: 50px;
-    --dot-bg: white;
-    --dot-color: black;
-    --dot-size: 1px;
-    --dot-space: 22px;
-      background:
-          linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-          linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-          var(--dot-color);
-   
-}
-
-.extralist{
-    color: black;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
-    margin-top: 50px;
-    transition: 0.5s;
-}
-
 
 
 .curri img{
@@ -672,15 +651,7 @@ nav ul li a:hover::after{
     
     }
 
-    .extralist{
-        color: black;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-        margin-top: 50px;
-        transition: 0.5s;
-    }
     
-
     
     .curri img{
         margin-left: 30px;
